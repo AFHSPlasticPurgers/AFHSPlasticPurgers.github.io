@@ -1,10 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@800&display=swap');
+
 body {
-	background-color: #4a745d;
-	margin: 20px;
+	margin: 0;
 }
 
-h1 {
+#header {
+	background-color: #4a745d;
+	overflow: hidden;
+}
+
+#header > * {
+	float: left;
+	padding: 14px 16px;
+}
+
+#title {
+	font-size: 35px;
+	text-decoration: none;
 	color: #72d1b3;
-	font-family: monospace;
-	font-size: 50px;
+	font-family: 'Azeret Mono', monospace;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
 }
