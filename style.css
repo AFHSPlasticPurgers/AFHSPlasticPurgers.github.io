@@ -8,35 +8,38 @@ body {
 	background-color: #4a745d;
 	overflow: hidden;
 	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+	padding-right:20px;
 }
 
-#header * {
-	padding-left: 15px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
 
 #title {
 	float: left;
-	font-size: 35px;
+	font-size: 30px;
 	text-decoration: none;
+	font-weight: bold;
 	color: #72d1b3;
-}
-
-#logo {
-	float: left;
-	width: 100px;
-	height: 100px;
+	padding: 15px;
+	padding-left: 20px;
 }
 
 .navel {
 	float: right;
-	font-size: 35px;
-	padding-right: 15px;
+	font-size: 30px;
+	padding: 15px;
 	color: #72d1b3;
 	text-decoration: none;
 }
 
 .navel:hover {
 	background-color: #282828;
+	font-weight: bold;
+	text-decoration: italics;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#logo {
+	margin: 40px;
+	max-width: 300px;
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
